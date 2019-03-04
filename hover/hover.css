@@ -1,0 +1,176 @@
+@charset"utf-8";
+/* 导航隐藏城市 */
+#top_nav .min_nav:hover em{
+	background-position:-26px -369px;
+}
+/* 头部hover颜色 */
+#top_nav a:hover{
+	color:#fd521d;
+}
+#top_nav .min_nav 
+.nosee_nav .litter_box a:hover{
+	color:#fd521d;
+}
+#top_nav .min_nav:hover{
+	border-color:#999;
+}
+#top_nav .min_nav:hover .nosee_nav{
+	display:block;
+	
+}
+#top_nav .min_nav:hover span a{
+	color:#fd521d
+}
+#content .banner .swiper .text p:hover{
+	color:#fd521d;
+	background-color:#000;
+}
+#content .banner .swiper .text .a1:hover ~.ap1 > .pic{
+	z-index:10
+}
+/* 更多下影藏框 */
+.busibess .bb_content .car_guide .nosee_name p:hover  i{
+background-color:#fd521d;
+	color:#fff;
+}
+.busibess .bb_content
+.car_guide .name
+.more:hover >.nosee_name{
+	display:block;
+}
+	
+/* 放大镜输入框 */
+.busibess a:hover{
+	color:#fd521d
+}
+
+.busibess .bb_content .car_guide li:nth-child(4) form:hover input{
+	border-color:#fd521d;
+}
+.busibess .bb_content .car_guide li:nth-child(4) form:hover i{
+	border-color:#fd521d;
+}
+.busibess .bb_content .car_guide li:nth-child(4) i:hover{
+	background-color:#fd521d;
+}
+/* 影藏框 */
+.busibess .bb_content .car_guide li:nth-child(4) form:hover > .noseebox{
+	height:150px;
+	border:1px solid #999;
+}
+/* 帮我卖车颜色变化 */	
+.busibess .bb_content
+.car_guidert .help:hover{
+	background-color:#f93
+}
+/* 保证承诺部分阴影 */
+#content .msg .msg_content > ul>li:hover{
+	box-shadow:0px 0px 9px 1px #999;
+
+}
+/* 保证承诺部分阴影 第三部分字体颜色 */
+#content .msg .msg_content > ul .msg_rt a:hover{
+	color:#fd521d;
+}
+/* 汽车图片hover样式 */
+#content .car_pic > ul> li:hover >a{
+	background-color:#fd521d;
+	color:#fff;
+}
+#content .car_pic > ul> li:hover:after{
+	border-top-color:#fd521d
+}
+#content .car_pic > ul> li:not(.see-car):hover >ul{
+	display:flex;
+	z-index:10;
+}
+
+#content .car_pic > ul >li>ul>li:hover{
+	border:1px solid #fd521d;
+}
+#content .car_pic > ul >li>ul>li:hover .bargain {
+	background-color:#fd521d;
+	color:#fff;
+}
+#content .car_pic > ul >li>ul>li:hover .bargain em{
+	background-position:-135px -365px
+}
+/* 汽车图最后一个块hover样式 */
+#content .car_pic > ul> li:not(.see-car):hover ~.see-car>ul{
+	display:none;
+}
+#content .car_pic > ul> li:not(.see-car):hover ~.see-car{
+	
+
+}
+#content .car_pic > ul> li:not(.see-car):hover~ .see-car:after{
+	display:none;
+}
+#content .car_pic > ul> li:not(.see-car):hover ~.see-car a{
+	color:#000;
+	background-color:#fff;
+}
+#content .car_pic > ul> li:last-child:hover{
+	background-color:#fff;
+	color:#fd521d;
+}
+#content .car_pic > ul> li:last-child:hover:after{
+	display:none
+}
+
+/* hover蒙层效果 */
+#content .car_pic > ul >li>ul:hover li:not(:hover){
+	opacity:.4;
+}
+#content .car_pic .more a:hover{
+	background-color:#fd521d;
+	color:#fff;
+}
+/* 轮播按钮 */
+#buttonlt:hover{
+	box-shadow:0 0 1px 0px #000;
+}
+#buttonrt:hover{
+	box-shadow:0 0 1px 0px #000;
+}
+/* 轮播右侧新闻媒体 */
+.swipernews .news a:hover{
+	color:#fd521d;
+}
+.swipernews .news .media:hover>ul{
+	display:block;
+}
+.swipernews .news .media:hover>a{
+	color:#fd521d;
+}
+.swipernews .news .media:hover ~.newscenter > ul{
+	display:none;
+}
+.swipernews .news .media:hover ~.newscenter >a{
+	color:#000;
+}
+.swipernews .news .newscenter:hover>a{
+	color:#fd521d
+}
+/* 底部部分 */
+/* 各种指导 */
+#footer .content_nav a:hover{
+	color:#fd521d
+}
+/* 隐藏举报事故车电话 */
+#footer .content_nav .report .phone_car:hover + .nosee{
+	display:block;
+}
+/* 字母导航 */
+#footer .letter ul li:nth-child(n+2):hover{
+	 background-color: #ffede8;
+	border-color: #ffddd3;
+}
+#footer .letter ul li:nth-child(n+2):hover a{
+	color:#fd521d;
+	font-size:24px;
+}
+/* 北京二手车 */
+#footer .bj_usedcar ul li+li:hover a{
+	color:#5800b0;
+}

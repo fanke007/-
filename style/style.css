@@ -1,0 +1,780 @@
+@charset"utf-8";
+
+#top_nav{
+	width:100%;
+	min-width:1190px;
+	height:60px;
+	color:#222;
+	margin:auto;
+}
+
+
+.main{
+	width:1190px;
+	height:50px;
+	margin:auto;
+}
+#top_nav .main .logo a img{
+	width:160px;
+	height:100%
+}
+/* 城市导航 */
+#top_nav .min_nav{
+	margin-left:20px;
+	width:80px;
+	margin-top:10px;
+	text-align:center;
+	line-height:50px;
+	border:1px solid transparent;
+	border-bottom:none;
+	background-color:#fff;
+}
+#top_nav .min_nav em{
+	display:inline-block;
+	width: 8px;
+    height: 6px;
+	margin-left:20px;
+	vertical-align:middle;
+    background: url(../images/index-img-68c0229d.png) 0 -369px;
+}
+/* 城市影藏导航 */
+#top_nav .min_nav .nosee_nav{
+	top:48px;
+	left:-1px;
+	width:610px;
+	height:400px;
+	border:1px solid #999;
+	border-top:none;
+	font-size:14px;
+	text-align:left;
+	z-index:888;
+	background-color:#fff;
+	display:none;
+}
+#top_nav .min_nav .nosee_nav h6{
+	right:0px;
+	top:-1px;
+	width:530px;
+	height:1px;
+	background-color:#999;
+	z-index:120;
+}
+#top_nav .min_nav 
+.nosee_nav .litter_box{
+	height:42px;
+	border-bottom:1px solid #eee;
+	text-align:left;
+	word-spacing:10px;
+	line-height:42px;
+	width:auto;
+}
+#top_nav .min_nav 
+.nosee_nav .litter_box a{
+	color:#999;
+	font-size:14px;
+}
+/* 隐藏下拉 */
+#top_nav .min_nav 
+.nosee_nav .city_nav{
+	overflow-y:scroll;
+	height:340px;
+}
+#top_nav .min_nav 
+.nosee_nav .city_nav2{
+	border-bottom:1px solid #eee;
+}
+#top_nav .min_nav 
+.nosee_nav 
+.city_nav ul li span{
+	position:absolute;
+	left:33px;
+	color:#999;
+}
+#top_nav .min_nav 
+.nosee_nav 
+.city_nav ul li a{
+	margin-left:33px;
+}
+#top_nav .min_nav 
+.nosee_nav 
+.city_nav ul li{
+	width:80%;
+	position:relative;
+	line-height:30px;
+	padding-left:60px;
+	overflow:hidden;
+}
+#top_nav .main > ul{
+	margin-left:30px
+}
+#top_nav .main > ul li{
+	float:left;
+	margin:10px 30px 0 0;
+	text-align:center;
+	line-height:50px;
+}
+#top_nav .main > ul li:nth-child(2):before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:-3px;
+	left:-6px;
+	width:80px;
+	height:30px;
+	background:url(../images/20180304171536.png) no-repeat 0px 0px;
+}
+/* 导航右侧电话 */	
+#top_nav .main .hdrt{
+	margin-top:10px ;
+	text-align:center;
+	line-height:50px;
+}
+#top_nav .main .hdrt em{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	vertical-align:text-bottom;
+	background:url(../images/index-img-68c0229d.png) no-repeat -99px 3px;
+}
+#top_nav .main .hdrt i{
+	font-size:20px;
+	vertical-align:middle;
+}
+/* 第二部分轮播 */
+#content .banner {
+	
+
+}
+#content .banner .swiper{
+	width:100%;
+	height:350px;
+	margin:auto;
+	
+}
+ 
+#content .banner .swiper a > div{
+	width:100%;
+	height:350px;
+	background-repeat: no-repeat;
+	background-position:center ;
+	animation:may 20s linear infinite;
+}
+@keyframes may{
+			0%,20%{
+                background-image: url(../images/RcS3z56nHxRv1lke.png) ;
+				background-color:rgb(252,252,252);
+            }
+            25%,45% {
+                background-image: url(../images/PUEJoP6WPPtLflAk.png) ;
+				background-color:rgb(252, 244, 242);
+            }
+            50%,75% {
+                background-image: url(../images/o5QFV3zLh1tWZvmv.jpg) ;
+				background-color:rgb(203, 43, 29);
+            }
+            80%, 100%{
+                background-image: url(../images/SPA60uEW-LctHIrY.png);
+				background-color:#fff;
+            }
+         }
+/* #content .banner .swiper .pic2{
+	background-color:rgb(252,252,252);
+	background-image:url(../images/wi6hy4dNTaz9Tqtw.png);
+	z-index:6;
+}
+#content .banner .swiper .pic3{
+	background-image:url(../images/PUEJoP6WPPtLflAk.png);
+}
+#content .banner .swiper .pic4{
+	background-image:url(../images/o5QFV3zLh1tWZvmv.jpg);
+	background-color:rgb(203, 43, 29); */
+
+#content .banner .swiper .text {
+	width:1190px;
+	height:100%
+	margin:auto;
+}
+#content .banner .swiper .text a{
+	color:#fff;
+}
+#content .banner .swiper .text p{
+	
+	right:0px;
+	top:40px;
+	z-index:10;
+	width:180px;
+	height:40px;
+	background-color: #262626;
+    border-bottom: 1px solid #3e3e40;
+	opacity:.8;
+	line-height:40px;
+	text-align:center;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#content .banner .swiper .text .p2{
+	top:80px;
+}
+#content .banner .swiper .text .p3{
+	top:120px;
+}
+#content .banner .swiper .text .p4{
+	top:160px;
+}
+/* 买卖信息 */
+.busibess .bb_content {
+	width:1190px;
+	height:200px;
+
+}
+/* logo */
+.busibess .bb_content .buy_logo{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	vertical-align:top;
+	background:url(../images/20180305125132.png) no-repeat center center;
+}
+.busibess .bb_content .car_guide{
+	vertical-align:top;
+	width:610px;
+	height:80%;
+	border-right:1px solid #c3c3c3;
+}
+/* 前边小标 */
+.busibess .bb_content .car_guide em{
+	display:inline-block;
+	width:15px;
+	height:18px;
+	vertical-align:text-bottom;
+	background:url(../images/index-img-68c0229d.png) no-repeat -186px -32px;
+}
+.busibess .bb_content .car_guide li:nth-child(2) em{
+	background-position:-206px -32px
+}
+.busibess .bb_content .car_guide li:nth-child(3) em{
+	background-position:-226px -32px
+}
+.busibess .bb_content .car_guide li+li{
+	margin-top:25px;
+}
+.busibess .bb_content .car_guide li{
+	font-size:13px;
+	color:#222;
+	word-spacing:10px;
+}
+/* 更多影藏汽车名 */
+.busibess .bb_content .car_guide .name .more{
+	padding-bottom:5px;
+}
+
+.busibess .bb_content .car_guide .name .nosee_name {
+	top:20px;
+	right:-300px;
+	width:815px;
+	border:1px solid #fd521d;
+	padding:10px;
+	background-color:#fff;
+	z-index:9999;
+	display:none;
+}
+.busibess .bb_content .car_guide .name .nosee_name p{
+	width:350px;
+	position:relative;
+	padding:0px 10px 10px 40px
+
+}
+.busibess .bb_content .car_guide .name .nosee_name p i {
+	position:absolute;
+	left:0px;
+	width:20px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+}
+.busibess .bb_content .car_guide .name .nosee_name p a{
+	display:inline-block;
+	text-align: center;
+    padding-bottom:2px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+}
+
+	
+
+.busibess .bb_content .car_guide li:nth-child(4) form{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:30px;
+}
+.busibess .bb_content .car_guide li:nth-child(4) input{
+	width:200px;
+	height:30px;
+	text-align:left;
+	padding-left:10px;
+	line-height:30px;
+	border:1px solid #999;
+	outline:none;
+	vertical-align:middle;
+}
+
+.busibess .bb_content .car_guide li:nth-child(4) i{
+	position:relative;
+	left:-16px;
+	display:inline-block;
+	width:40px;
+	height:30px;
+	vertical-align:middle;
+	border:1px solid #999;
+	border-left:none;
+	
+}
+/* 输入框发大镜 */
+.busibess .bb_content .car_guide li:nth-child(4) em{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background:url(../images/index-img-68c0229d.png) no-repeat -71px 2px;
+}
+.busibess .bb_content .car_guide li:nth-child(4) input::placeholder{
+	color:#cecece;
+	font-size:14px;
+	line-height:40px;
+}
+
+/* 输入框隐藏框 */
+.busibess .bb_content .car_guide .noseebox{
+	top:32px;
+	width:210px;
+	height:0px;
+	border-top:none;
+	background-color:#fff;
+	overflow-y:scroll;
+	}
+/* 右侧部分 */
+.busibess .bb_content .buy_logort{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	vertical-align:top;
+	background:url(../images/20180305125213.png) no-repeat 0px 0px;
+}
+.busibess .bb_content
+.car_guidert {
+	vertical-align:top
+}
+.busibess .bb_content
+.car_guidert .phone input{
+	width:270px;
+	height:30px;
+	text-align:left;
+	padding-left:10px;
+	line-height:30px;
+	border:1px solid #999;
+	outline:none;
+}
+/* 帮我卖车 */
+.busibess .bb_content
+.car_guidert .help{
+	width:282px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background-color:#fd521d;
+	color:#fff;
+}
+
+.busibess .bb_content
+.car_guidert ul li + li{
+	margin-top:25px;
+}
+/* <!-- 三包承诺,论坛信息 --> */
+#content .msg{
+	height:320px;
+	background-color:#f2f2f4;
+	overflow:hidden;
+}
+#content .msg .msg_content > ul>li{
+	float:left;
+	width:190px;
+	background-color:#fff;
+	margin:30px 8px 0 8px;
+	border-radius:50px;
+	padding:20px;
+	border:1px solid pink;
+
+}
+#content .msg .msg_content > ul .msg_rt{
+	width:380px;
+	height:203px;
+}
+/* 最右侧列表 */
+#content .msg .msg_content > ul .msg_rt .more:before{
+	content:"";
+	position:absolute;
+	top:-6px;
+	left:36px;
+	width:40px;
+	height:17px;
+	background:url(../images/index-img-68c0229d.png)no-repeat 1px -101px;
+}
+
+#content .msg .msg_content > ul .msg_rt ul li{
+	margin:10px 0 13px;
+}
+#content .msg .msg_content > ul .msg_rt ul li i{
+	display:inline-block;
+	width:2px;
+	height:2px;
+	border-radius:50%;
+	background-color:#888;
+	vertical-align:middle;
+}
+
+#content .msg .msg_content > ul .msg_rt li p{
+	display:inline-block;
+	width:280px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	vertical-align:middle;
+	font-size:12px;
+}
+#content .msg .msg_content > ul .msg_rt li span img{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	vertical-align:middle;
+}
+#content .msg .msg_content > ul .msg_rt .btm_text li{
+	width:90px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border-radius:10px;
+	border:1px solid #ccc;
+}
+/* 右侧导航最底下文字 */
+#content .msg .msg_content > ul .msg_rt .btm_text li+li{
+	margin-left:2px;
+}
+/* 汽车图片 */
+/* 汽车价格区域导航 */
+#content .car_pic > ul> li >a{
+	display:block;
+	width:195px;
+	border:1px solid #ddd;
+	border-radius:10px;
+	padding:16px 0;
+	text-align:center;
+	font-size:24px;
+}
+/* 汽车有图详细介绍 */
+#content .car_pic>ul{
+	height:750px;/* 规定高度不然"更多"那受影响 */
+}
+#content .car_pic > ul >li>ul{
+	padding-top:30px;
+	top:60px;
+	left:0px;
+	height:650px;
+	display:none;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex:auto;
+
+}
+
+#content .car_pic > ul >li:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width:0px;
+	height:0px;
+	margin:-1px 0 0px 85px;
+	border:15px solid transparent;
+	border-bottom:none;
+
+}
+
+#content .car_pic > ul >li>ul>li{
+	height:310px;
+	border:1px solid transparent;
+}
+#content .car_pic > ul >li>ul>li .bargain{
+	width:50px;
+	height:23px;
+	line-height:23px;
+	vertical-align:middle;
+	border:1px solid #fd521d;
+	padding:0 4px 0 5px;
+	color:#fd521d;
+	margin:15px 5px 0 0;
+	
+}
+/* 砍价标 */
+#content .car_pic > ul >li>ul>li .bargain em{
+	display:inline-block;
+	width:16px;
+	height:17px;
+	vertical-align:middle;
+	background:url(../images/index-img-68c0229d.png) no-repeat -120px -365px;
+}
+/* 最后一个块的样式 */
+#content .car_pic > ul >li.see-car>ul{
+	display:flex;
+}
+#content .car_pic > ul >li.see-car:after{
+	border-top-color:#fd521d
+
+}
+#content .car_pic > ul >li.see-car{
+	
+	color:#fff;
+	border-radius:10px;
+}
+#content .car_pic > ul >li.see-car> a{
+	color:#fff;
+	background-color:#fd521d;
+}
+/* 更多 */
+#content .car_pic .more a{
+	display:block;
+	width:180px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:12px auto;
+	border:1px solid #fd521d;
+	color:#fd521d
+}
+/* 界限 */
+.limit{
+	height:20px;
+	background-color:#f2f2f4
+}
+/* 轮播..故事 */
+.story .swiper2{
+	overflow:hidden;
+	width:740px;
+	padding-top:20px;
+	margin-left:0px;
+}
+.story .swiper2 ul li {
+	width:740px;
+	
+	
+}
+
+.story .swiper2 ul li .subswaper {
+	height:140px
+}
+.story .swiper2 ul li .subswaper+.subswaper {
+	margin-left:30px
+}
+.story .swiper2 ul li img{
+	width:170px;
+	height:125px
+}
+.story .swiper2 ul li .text{
+	width:160px;
+	height:140px;
+	margin-left:10px;
+}
+.story .swiper2 ul li .text h3{
+	overflow:hidden;
+
+}
+/* 轮播图分页器 */
+#list{
+	width:100px;
+	height:10px;
+	top:-4px;
+	left:585px
+}
+.story .swiper-pagination .swiper-pagination-bullet{
+	width:8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #000;
+    opacity: .2;
+}
+.story .swiper-pagination .swiper-pagination-bullet-active{
+	opacity:1;
+	background-color:#fd521d;
+}
+/* 轮播按钮 */
+#buttonlt {
+	top:23px;
+	left:590px;
+	width:15px;
+	height:15px;
+	border:1px solid #999;
+	opacity:1;
+	cursor:pointer;
+	background:url(../images/canvas.png) no-repeat center center;
+}
+#buttonrt{
+	top:23px;
+	left:662px;
+	width:15px;
+	height:15px;
+	border:1px solid #999;
+	opacity:1;
+	cursor: pointer;
+	background:url(../images/canvas1.png) no-repeat -1px -3px;
+}
+/* 右侧新闻 */
+.swipernews .news{
+	top:-160px;
+	right:-25px;
+	width:360px;
+	height:180px;
+	margin-left:60px;
+	
+}
+.swipernews .news .media ul{
+	display:none;
+}
+.swipernews .news li{
+	position:relative;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.swipernews .news ul li:before{
+	content:"";
+	position:absolute;
+	left:3px;
+	top:14px;
+	width:3px;
+	height:3px;
+	border-radius:2px;
+	background-color:#666;
+}
+.swipernews .news .newscenter ul{
+	top:27px;
+	left:0px;
+	opacity:1;
+}
+/* 底部区 */
+/* 底部保障 */
+#footer{
+	background-color:#eee;
+	margin-top:-90px;
+}
+#footer .baoz{
+	height:100px;
+	background-color:#ddd;
+}#footer .baoz .baoz-content{
+	
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+	overflow:hidden;	
+}
+
+#footer .baoz .baoz-content div{
+	height:27px;
+	margin-top:38px;
+	background:url(../images/index-img-68c0229d.png) no-repeat;
+}
+#footer .baoz .baoz-content .pic1{
+	width:190px;
+	background-position:0 -159px;
+}
+#footer .baoz .baoz-content .pic2{
+	width:108px;
+	background-position:0 -186px;
+}
+#footer .baoz .baoz-content .pic3{
+	width:118px;
+	height:26px;
+	margin-top:39px;
+	background-position:0 -212px;
+}
+#footer .baoz .baoz-content .pic4{
+	width:156px;
+	background-position:0 -394px;
+}
+#footer .baoz .baoz-content .pic5{
+	width:126px;
+	background-position:0 -264px;
+}
+/* 关于我们及二维码 */
+#footer .content_nav{
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+}
+#footer .content_nav .code img{
+	width:100px;
+	height:100px;
+}
+/* 举报电话 */
+#footer .content_nav .report .nosee{
+	top:-110px;
+	right:0px;
+	padding:5px;
+	border:1px solid #fd521d;
+	display:none;
+}
+#footer .content_nav .phone:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:-40px;
+	width:30px;
+	height:30px;
+	background: url(../images/footer-phone2x-454291dc.png) no-repeat 100%/100%
+}
+/* 字母导航 */
+#footer .letter{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+}
+#footer .letter ul li:nth-child(n+2){
+	width:37px;
+	height:37px;
+	text-align:center;
+	line-height:37px;
+	border:1px solid #ccc;
+
+}
+#footer .letter ul li:first-child{
+	height:39px;
+	line-height:39px;
+	background-color:#777;
+}
+/* 北京二手车 */
+#footer .bj_usedcar ul li{
+	font-size:12px;
+	
+}
+#footer .bj_usedcar ul li+li{
+	padding:0 40px;
+	border-left:1px solid #bbb;
+}
+/* 最底部版权 */
+.copyright{
+	height:50px;
+	line-height:50px;
+	background-color:#272c2e;
+	color:#ccc;
+}
+.copyright img{
+	vertical-align:middle;
+}
+ 
